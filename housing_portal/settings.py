@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-bgs!xpm7w%hw0%v6_2y#cehbaac4^4pox7hy#tz(*&%@vhv^!=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
@@ -84,7 +84,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'tiny_iresident',
         'USER': 'postgres',          
-        'PASSWORD': 'uiaNSI!@!UNSA9;SAOI8ND19@!@823J1M0!', 
+        'PASSWORD': 'derqui575', 
         'HOST': 'localhost',
         'PORT': '5432',
     }
